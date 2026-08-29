@@ -3,8 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Potter｜攝影師與設計師</title>
-  <meta name="description" content="Potter 的攝影與設計作品集。">
+  <title>Potter｜攝影師與設計師作品集｜品牌攝影・視覺設計</title>
+  <meta name="description" content="Potter 是擁有豐富影像經驗的攝影師與設計師，提供品牌形象、人物、產品與空間攝影，以及視覺識別、刊物與版面設計服務。">
+  <meta name="keywords" content="Potter, 攝影師, 設計師, 攝影作品集, 設計作品集, 品牌攝影, 形象攝影, 人像攝影, 產品攝影, 空間攝影, 視覺設計, 視覺識別, 編輯設計, 台灣攝影師, 台北設計師">
+  <meta name="author" content="Potter">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Potter｜攝影師與設計師作品集">
+  <meta property="og:description" content="以光線記錄真實，以設計讓故事被看見。探索 Potter 的攝影與視覺設計作品。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="Potter Studio">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Potter｜攝影師與設計師作品集">
+  <meta name="twitter:description" content="探索 Potter 的品牌攝影、視覺設計與精選作品。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
@@ -44,20 +55,20 @@
       </div>
       <div class="work-grid">
         <a class="work-card wide" href="#contact">
-          <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1500&q=85" alt="花藝品牌攝影">
-          <div class="card-caption"><span>01</span><h3>花與日常</h3><p>品牌攝影 / 2024</p></div>
+          <img src="鐵炒鍋作品封面.png" alt="本間家鐵炒鍋產品影像作品">
+          <div class="card-caption"><span>01</span><h3>影像作品</h3><p>品牌攝影 / 2024</p></div>
         </a>
         <a class="work-card" href="#contact">
-          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=85" alt="工作室空間攝影">
-          <div class="card-caption"><span>02</span><h3>有序之間</h3><p>空間攝影 / 2024</p></div>
+          <img src="婚禮攝影封面.jpg" alt="婚禮宴會桌上的香檳酒杯攝影作品">
+          <div class="card-caption"><span>02</span><h3>婚禮攝影</h3><p>空間攝影 / 2024</p></div>
         </a>
         <a class="work-card offset" href="#contact">
           <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85" alt="服裝品牌視覺攝影">
-          <div class="card-caption"><span>03</span><h3>柔軟的輪廓</h3><p>藝術指導 / 2023</p></div>
+          <div class="card-caption"><span>03</span><h3>人像寫真</h3><p>藝術指導 / 2023</p></div>
         </a>
         <a class="work-card wide" href="#contact">
           <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1500&q=85" alt="雜誌與設計作品">
-          <div class="card-caption"><span>04</span><h3>紙上風景</h3><p>編輯設計 / 2023</p></div>
+          <div class="card-caption"><span>04</span><h3>平面設計</h3><p>編輯設計 / 2023</p></div>
         </a>
       </div>
     </section>
@@ -78,13 +89,45 @@
     <section class="contact-section" id="contact">
       <p class="eyebrow">LET'S CREATE TOGETHER</p>
       <h2>有個故事，<br>想一起完成嗎？</h2>
-      <a class="contact-link" href="mailto:potterwork0716@gmail.com">potterwork0716@gmail.com <span>↗</span></a>
+      <p class="contact-intro">留下聯絡方式與需求，我會盡快回覆你。</p>
+      <form class="contact-form" id="contact-form">
+        <div class="form-grid">
+          <label>你的名字
+            <input name="name" type="text" autocomplete="name" maxlength="80" required>
+          </label>
+          <label>電子信箱
+            <input name="email" type="email" autocomplete="email" maxlength="254" required>
+          </label>
+          <label>聯絡電話（選填）
+            <input name="phone" type="tel" autocomplete="tel" maxlength="40">
+          </label>
+          <label>想合作的項目
+            <select name="service" required>
+              <option value="" selected disabled>請選擇項目</option>
+              <option value="品牌形象攝影">品牌形象攝影</option>
+              <option value="人像與產品攝影">人像與產品攝影</option>
+              <option value="視覺識別設計">視覺識別設計</option>
+              <option value="刊物與版面設計">刊物與版面設計</option>
+              <option value="其他">其他</option>
+            </select>
+          </label>
+        </div>
+        <label>告訴我你的想法
+          <textarea name="message" rows="5" minlength="10" maxlength="2000" required placeholder="例如：專案內容、預計時間、預算範圍……"></textarea>
+        </label>
+        <label class="honeypot" aria-hidden="true">請不要填寫這個欄位
+          <input name="website" type="text" tabindex="-1" autocomplete="off">
+        </label>
+        <button class="submit-button" type="submit">送出合作洽詢 <span>↗</span></button>
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+      </form>
+      <a class="contact-link" href="mailto:potterwork0716@gmail.com">或直接寄信：potterwork0716@gmail.com <span>↗</span></a>
     </section>
   </main>
 
   <footer>
     <p>© 2024 POTTER STUDIO</p>
-    <div><a href="#top">INSTAGRAM</a><a href="#top">BEHANCE</a></div>
+    <div><span>INSTAGRAM（連結待補）</span><span>BEHANCE（連結待補）</span></div>
     <a href="#top">回到頂端 ↑</a>
   </footer>
   <script src="script.js"></script>
